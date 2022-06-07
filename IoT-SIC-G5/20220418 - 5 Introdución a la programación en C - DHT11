@@ -22,4 +22,4 @@ LED Pin 2
 
 Notas:
 
-Para usar digitalWrite, es pin al que se le aplica un voltaje debe estar configurado como output
+Para usar digitalWrite, el pin al que se le aplica un voltaje debe estar configurado como output
