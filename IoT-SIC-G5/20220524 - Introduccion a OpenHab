@@ -1,0 +1,59 @@
+Instalacion de OpenHab
+
+https://edu.codigoiot.com/course/view.php?id=840
+
+La instalacion comienza desde 1.3 https://edu.codigoiot.com/mod/lesson/view.php?id=1942&pageid=2457
+
+Preparar el entorno para instalar OpenHab
+	wget -qO - 'https://openhab.jfrog.io/artifactory/api/gpg/key/public' | sudo apt-key add -
+
+	sudo apt-get install apt-transport-https
+	
+	echo 'deb https://openhab.jfrog.io/artifactory/openhab-linuxpkg stable main' | sudo tee /etc/apt/sources.list.d/openhab.list
+
+	sudo apt-get update
+	
+Instalar OpenHab
+	sudo apt-get install openhab
+	
+Entrar a localhost:8080
+
+Documentacion
+https://www.openhab.org/docs/
+
+Crear modelo
+-Dirgirse a Settings>Model
+-Hacer clic en agregar locacion
+
+	Name: depa
+	Label: Departamento
+	Type: Location
+	Category: Departamento
+	Semantic Class: Apartment
+	
+	
+Notas
+
+Descripcion de conceptos principales en OpenHab
+https://edu.codigoiot.com/mod/lesson/view.php?id=1944&pageid=2462
+
+
+Conclusion del sensor de temperatura MLX90614 con Java y RPi
+
+-Datasheet del MLX90614 https://www.sparkfun.com/datasheets/Sensors/Temperature/MLX90614_rev001.pdf
+
+-Descripcion de los registros en seccion 7.3.4 del datasheet
+
+- Expresa lo registros de forma diferente 0x06 -- 006h
+
+-Metodos para el uC
+https://github.com/adafruit/Adafruit-MLX90614-Library/blob/master/Adafruit_MLX90614.cpp
+
+-Consultar dispositovos I2C desde RPi con Wiringi y Pi4j
+	-sudo i2cdetect -y -1
+
+-Enviar comando/consultar registro
+	-i2cget -y 1 [direccion] [registro[
+	i2cget -y 1 0x5A 0x06
+	
+	

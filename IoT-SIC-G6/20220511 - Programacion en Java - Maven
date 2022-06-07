@@ -1,0 +1,36 @@
+Ciclo de vida de proyecto Maven
+
+Instalar Maven
+	-sudo apt update
+	-sudo apt full-upgrade
+	
+	-sudo apt install maven
+	-mvn -version
+	
+	-Reiniciar VSC
+	
+Ejecutar el ciclo de vida
+
+clean, validate, compile, test, test-compile, package, verify
+
+Ejecutar el archivo Jar
+
+	javac -cp proyecto_java-1.0.jar com.sic.App
+
+Notas
+
+Como enviar multiples datos por mqt
+
+https://github.com/codigo-iot/MySQL-NodeRed-ESP32-MQTT/blob/main/nodemcu-mqtt-json/nodemcu-mqtt-json.ino
+
+https://github.com/codigo-iot/ESP32CAM_MQTT-Basic/blob/main/ESP32CAM_MQTT-Basic/ESP32CAM_MQTT-Basic.ino
+
+Suscripcion a multiples temas
+
+codigoIoT/ejemplos/#
+
+dato,dato2,dato3,dato4...
+
+TCP, udp, OSC, serial
+
+https://github.com/codigo-iot/reconocimiento-facial/blob/main/python/facedetection/facecheckMQTT.py

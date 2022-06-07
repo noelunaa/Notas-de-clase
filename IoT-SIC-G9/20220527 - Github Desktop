@@ -1,0 +1,38 @@
+Github Desktop
+
+Visitar el siguiente enlace
+https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
+
+	-sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.9.3-linux3/GitHubDesktop-linux-2.9.3-linux3.deb
+	-sudo apt-get install gdebi-core
+	-sudo gdebi GitHubDesktop-linux-2.9.3-linux3.deb
+
+Clonar Repositorio con Github Desktop
+	-Abrir Github Desktop
+	-Iniciar sesion (hacer clic en el boton Iniciar sesion en Github.com)
+	-Hacer clic en boton Clonar repositorio
+	
+Realizar commit con Github Desktop
+1. Dirigirse al directorio del repositoriclonado
+2. Editar el archivo README.md. Guardar cambios
+3. Abrir Github Desktop
+4. Hacer commit
+5. Hacer push
+
+Uso de source control desde Visual Studio Code
+1. Abrir Visual Studio Code
+2. Abrir el directorio del repositorio
+3. Editar README.md
+4. Hacer clic en source control
+5. Hacer clic en el boton Stage All Changes (boton + en la seccion Changes)
+6. Escribir descripcion del commit
+7. Hacer clic en el boton commit
+8. Hacer clic en el boton Sync Changes
+9. Permitir iniciar sesion
+
+Notas
+
+https://desktop.github.com/
+
+
+
